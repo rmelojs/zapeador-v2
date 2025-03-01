@@ -1,0 +1,135 @@
+:root {
+    font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+
+    color: #333;
+    background-color: #f8f9fa;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+#app {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #25d366; /* Verde principal do WhatsApp */
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #25d366; /* Verde principal do WhatsApp */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #128c7e; /* Verde escuro do WhatsApp */
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.howToWork ol {
+    list-style: none;
+    padding: 0;
+}
+
+.howToWork li {
+    background: #eae6f8;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Responsivo */
+@media (max-width: 639px) {
+    #app {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Tema escuro */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color: #ddd;
+        background-color: #121212;
+    }
+
+    .container {
+        background: #1e1e1e;
+        box-shadow: none;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #25d366; /* Verde principal do WhatsApp */
+    }
+
+    p {
+        color: #ccc;
+    }
+
+    .howToWork li {
+        background: #333;
+    }
+
+    button {
+        background: #25d366; /* Verde principal do WhatsApp */
+    }
+
+    button:hover {
+        background: #128c7e; /* Verde escuro do WhatsApp */
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"preact": "^10.25.3",
+		"preact-iso": "^2.9.0",
+		"preact-render-to-string": "^6.5.13",
+		"preact-router": "^4.1.2"
+	},
+	"devDependencies": {
+		"vite": "^6.0.4"
+	},
+	"packageManager": "pnpm@10.5.0+sha512.11106a5916c7406fe4b8cb8e3067974b8728f47308a4f5ac5e850304afa6f57e2847d7950dfe78877d8d36bfb401d381c4215db3a4c3547ffa63c14333a6fa51"
+}
