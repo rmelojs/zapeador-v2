@@ -3,6 +3,7 @@ import { route } from "preact-router"; // Correta importação do roteador
 import { useState } from "preact/hooks";
 import "../../assets/styles/style.css";
 import { Link } from "preact-router";
+import Header from "../../components/Header";
 
 export const WebPage = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -24,6 +25,7 @@ export const WebPage = () => {
 
   return (
     <div class="container">
+      <Header />
       <div class="container-send">
         <img
           src="whatsapp-icon.png"

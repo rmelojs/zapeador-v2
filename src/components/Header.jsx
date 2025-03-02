@@ -1,18 +1,20 @@
-import { useLocation } from 'preact-iso';
+import { useLocation } from "preact-iso";
 
 export function Header() {
-	const { url } = useLocation();
+  const { url } = useLocation();
 
-	return (
-		<header>
-			<nav>
-				<a href="/" class={url == '/' && 'active'}>
-					Home
-				</a>
-				<a href="/404" class={url == '/404' && 'active'}>
-					404
-				</a>
-			</nav>
-		</header>
-	);
+  return (
+    <header>
+      <nav>
+        <a href="/" class={url == "/" && "active"}>
+          home
+        </a>
+        {/* <a href="/404" class={url == "/404" && "active"}>
+          404
+        </a> */}
+      </nav>
+    </header>
+  );
 }
+
+export default Header;

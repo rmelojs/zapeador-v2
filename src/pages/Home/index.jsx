@@ -14,11 +14,10 @@ export const HomePage = () => {
   return (
     <div class="container">
       <div class="whatZapeador">
-        <h1>O que é o Zapeador?</h1>
+        <h1>Bem-vindo ao Zapeador!</h1>
         <p>
-          O Zapeador é uma ferramenta que permite que você se conecte com
-          qualquer WhatsApp de qualquer pessoa sem a necessidade de salvar o
-          número de telefone na sua agenda. Nada fica armazenado no servidor.
+          Com o Zapeador você inicia uma coversa no WhatsApp com qualquer pessoa
+          sem a necessidade de salvar o o telefone na sua agenda.
         </p>
       </div>
       <div class="options">
@@ -31,7 +30,7 @@ export const HomePage = () => {
         </button>
       </div>
       <div class="howToWork">
-        <h2>Bem-vindo ao Zapeador!</h2>
+        <h2></h2>
         <h3>Como Funciona?</h3>
         <ol>
           <li>
@@ -43,6 +42,7 @@ export const HomePage = () => {
             Conecte-se: Você será redirecionado para o WhatsApp para começar a
             conversa.
           </li>
+          <li>Nada fica armazenado no servidor.</li>
         </ol>
       </div>
     </div>

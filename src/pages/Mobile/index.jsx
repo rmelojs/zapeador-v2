@@ -3,6 +3,7 @@ import { route } from "preact-router"; // Agora usando route para navegação
 import { useState } from "preact/hooks";
 import "../../assets/styles/style.css";
 import { Link } from "preact-router";
+import Header from "../../components/Header";
 
 export const MobilePage = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -19,6 +20,7 @@ export const MobilePage = () => {
 
   return (
     <div class="container">
+      <Header />
       <div class="container-send">
         <img
           src="/whatsapp-icon.png"
