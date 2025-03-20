@@ -1,5 +1,5 @@
 import { useLocation } from "preact-iso";
-// import "../../styles/Header.css";
+import "./Header.css";
 
 export function Header() {
   const { url } = useLocation();
